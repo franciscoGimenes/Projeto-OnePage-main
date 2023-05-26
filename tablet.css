@@ -1,0 +1,86 @@
+.logo{
+    max-width: 450px;
+    height: auto;
+}
+#imagem-logo{
+    width: 100vw;
+    text-align: center;
+}
+.menu{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.item{
+    font: 400 10px 'mont', sans-serif;
+    text-align: center;
+    margin: 0 5px;
+}
+.nossa-comida, .panela{
+    width: 80vw;
+    height: auto;
+    margin: 0;
+}
+.imagem{
+    text-align: center;
+}
+#contato{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+}
+#contato .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.name{
+    width: 90vw;
+    text-align: center;
+    margin: 0;
+}
+.name .amm{
+    font: 500 30px 'mont', sans-serif;
+    width: 90vw;
+}
+.redes{
+    margin: 20px 0;
+    display: block;
+    width: 90vw;
+}
+.rede{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 10px 0;
+}
+.endereco{
+    width: 90vw;
+    margin-bottom: 25px;
+}
+#container-comida{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0;
+}
+#container-panela{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 100px 0;
+}
+.conteudo{
+    margin: 0 70px;
+}
+.titulo{
+    text-align: center;
+}
+#cardapio{
+    margin-bottom: 80px;
+}
